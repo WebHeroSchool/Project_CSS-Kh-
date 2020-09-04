@@ -5,9 +5,12 @@
 .header__text {
   text-indent: 1cm;
 }
+.header__title {
+  font-family: 'Lobster', cursive;
+}
 
 .main-content__title {
-  font-style: italic;
+  font-family: 'Lobster', cursive;
   text-align: center;
   text-shadow: 5px 5px 4px red;
   letter-spacing: 5px;
@@ -20,7 +23,6 @@
 .footer {
   background-color: yellow;
   background-position: center center;
-  font-family: Georgia;
   font-size: small;
   border-width: 2px;
   border-style: dashed;
@@ -34,6 +36,7 @@
 
 .footer__title {
   text-transform: uppercase;
+  font-family: 'Lobster', cursive;
 }
 
 .header__button {
@@ -43,4 +46,8 @@
 
 .main-content__button {
   padding: 40px;
+}
+
+.all {
+  font-family: 'Montserrat', sans-serif;
 }
